@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&display=swap');
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* font-size: 20px; */
+}
+#logo{
+  /* border: solid red; */
+  width: 200px;
+}
+#search{
+  display: flex;
+}
+#search input{
+  margin-left:20px ;
+  padding: 10px 20px 10px 20px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: rgba(225, 224, 224, 0.82);
+  border: none;
+}
+#search-icon{
+  position: absolute;
+  margin-left:22% ;
+  margin-top:10px;
+}
+#navbar{
+  /* position: fixed; */
+  padding: 10px;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#navMenu {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+}
+#navMenu li{
+  margin-left: 35px;
+  /* color: gray; */
+  
+}
+#nav-icon ion-icon{
+  font-size:25px;
+  margin-right:10px ;
+}
+
+
+/* ---------------Footer part------------ */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  top: 120px;
+  width: 100%;
+  padding: 30px;
+  font-size: 20px;
+  background-color:aliceblue;
+  color: #505759;
+}
+
+footer ion-icon {
+  font-size: 40px;
+  color: #505759;
+  transition: transform .5s ease-in;
+  /* border: 1px solid red; */
+
+}
+
+footer ion-icon:hover {
+  color: rgb(0, 0, 0);
+  /* background-color: #00A1E0; */
+  transform: scale(0.9);
+
+}
+
+footer p {
+  margin: 5px 0 0px 50px;
+}
+
+footer p:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer h3 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+
+
+footer div:nth-child(1) {
+  text-align: left;
+}
+
+
+#footer-contact {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* border:solid red */
+}
+
+.contact {
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 20px 0 0 0;
+}
+
+
+.socialmedia ion-icon {
+  margin: 20px 20px 0 0;
+  /* color: aqua; */
+}
+
+/*  */
+
